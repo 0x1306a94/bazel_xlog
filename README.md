@@ -12,3 +12,5 @@ git clone https://github.com/0x1306a94/bazel_xlog
 cd bazel_xlog
 bazel build //:App-iOS
 ```
+![](screenshots/1.png)
+![](screenshots/2.png)
