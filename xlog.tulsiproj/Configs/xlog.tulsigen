@@ -1,0 +1,63 @@
+{
+  "additionalFilePaths" : [
+    "/BUILD"
+  ],
+  "buildTargets" : [
+    "//:App-iOS",
+    "//:App_Classes",
+    "//:KKXlog",
+    "//:XlogSwift"
+  ],
+  "optionSet" : {
+    "BazelBuildOptionsDebug" : {
+      "p" : "$(inherited)"
+    },
+    "BazelBuildOptionsRelease" : {
+      "p" : "$(inherited)"
+    },
+    "BazelBuildStartupOptionsDebug" : {
+      "p" : "$(inherited)"
+    },
+    "BazelBuildStartupOptionsRelease" : {
+      "p" : "$(inherited)"
+    },
+    "BuildActionPostActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "BuildActionPreActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "CommandlineArguments" : {
+      "p" : "$(inherited)"
+    },
+    "EnvironmentVariables" : {
+      "p" : "$(inherited)"
+    },
+    "LaunchActionPostActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "LaunchActionPreActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "ProjectGenerationBazelStartupOptions" : {
+      "p" : "$(inherited)"
+    },
+    "TestActionPostActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "TestActionPreActionScript" : {
+      "p" : "$(inherited)"
+    }
+  },
+  "projectName" : "xlog",
+  "sourceFilters" : [
+    "ios-app",
+    "ios-app/Resources",
+    "ios-app/Resources/xcassets",
+    "ios-app/Resources/xib",
+    "ios-app/src",
+    "src",
+    "src/oc",
+    "src/swift"
+  ]
+}
