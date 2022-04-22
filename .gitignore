@@ -1,5 +1,6 @@
 tmp_build_dir
 bazel-*
+xcode
 bin/WorkspaceTools
 bin/PodSpecToBUILD
 *.xcworkspace
